@@ -10,6 +10,11 @@ closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
+$('.promo__btns').on('click', 'a.promo__link:not(.btn)', function() {
+    $(this)
+    .addClass('btn').siblings().removeClass('btn')
+});
+
 const counters = document.querySelectorAll('.skills__ratings-counter'),
     lines = document.querySelectorAll('.skills__ratings-line span');
 
