@@ -8,6 +8,10 @@
     align-items: center;
     height: 340px;
     z-index: 3;
+    img {
+        width: 20px;
+        height: 20px;
+    }
     &__divider {
         width: 2px;
         height: 70px;
